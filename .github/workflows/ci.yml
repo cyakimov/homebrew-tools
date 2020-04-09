@@ -1,0 +1,13 @@
+name: ci
+on: push
+
+jobs:
+  install:
+    name: Brew install
+    runs-on: macos-latest
+    steps:
+      - name:
+        run: |
+          brew tap cyakimov/tools
+          brew install cflare
+          cflare -V
