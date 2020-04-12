@@ -6,10 +6,10 @@ class Cflare < Formula
 
   if OS.mac?
     url "https://github.com/cyakimov/cloudflare-cli/releases/download/v0.2.0/cflare-v0.2.0-x86_64-apple-darwin.tar.gz"
-    sha256 "aed3984f9655f8ce51746a134d5dcb8d3fece5e9c3eeac6a61fd152466e8736d"
+    sha256 "569a56e18f42640038d71a0a68f87fabf61edbe2607387d41f0f9709a294b1b2"
   elsif OS.linux?
-	url "https://github.com/cyakimov/cloudflare-cli/releases/download/v0.2.0/cflare-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-	sha256 "488f09384dcc9462a4aa3112d8d6917bb6bbc9ac9d984c91dfeab07270dcc82d"
+	  url "https://github.com/cyakimov/cloudflare-cli/releases/download/v0.2.0/cflare-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+	  sha256 "c11ce2e9be351a5866981cdf56a391d873922a13fc82a8ad11c32eb550a9c934"
   end
 
   def install
